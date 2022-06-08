@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- This Code is the setup for the page -->
+
+<head>
+	<!-- Connecting the JS File to our HTML file -->
+	<script src="teacher1.js"></script>
+	<title>Teacher Creator Page</title>
+	<!--Linking CSS file and the font library-->
+	<link rel="stylesheet" href="teacher.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+	<style>
+	body {
+		font-family: "Montserrat";
+	}
+	</style>
+</head>
+<!--When the webpage loads it runs the getExistingAnnouncement function-->
+
+<body onload="getExistingAnnoucement()">
+	<h1 id="title">North Park SS Announcements</h1>
+	<br>
+	<!--Linking the results page to the student search page through a button for students to navigate through pages-->
+    <a href="./Results_Page.html" id="navigation">Results Page</a>
+	<!--Linking the results page to the home  page through a buttons for students to navigate through pages-->
+    <a href="homepage.html" id="navigation">Home Page</a>
+	<h2 id="name">Teacher Creator Page</h2>
+	<br>
+	<br>
+	<div id="filters">
+		<!--Creating checkboxes throgh the <input> tag-->
+		<h3 id="filterName">Grade</h3>
+		<br>
+		<input id="htmlTGrade9" type="checkbox"> Grade 9
+		<input id="htmlTGrade10" type="checkbox"> Grade 10
+		<input id="htmlTGrade11" type="checkbox"> Grade 11
+		<input id="htmlTGrade12" type="checkbox"> Grade 12
+		<br>
+		<br>
+		<!--Creating a dropdown list through the use of <select> tag-->
+		<h3 id="filterName">Club:</h3>
+		<br>
+		<select id="htmlTClub">
+			<option value="">Select</option>
+			<option value="Deca">DECA</option>
+			<option value="Hosa">HOSA</option>
+			<option value="Robotics">Robotics</option>
+			<option value="Hack Club">Hack Club</option>
+			<option value="Model UN">Model UN</option>
+			<option value="Other">Other</option>
+			<option value="All">All</option>
+		</select>
+		<br>
+		<br>
+		<br>
+		<!--Creating a dropdown list through the use of <select> tag-->
+		<h3 id="filterName">Gender:</h3>
+		<br>
+		<select id="htmlTGender">
+			<option value="">Select</option>
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			<option value="Other">Other</option>
+			<option value="All">All</option>
+		</select>
+		<br>
+		<br>
+		<br>
+		<!--Creating a texarea for teachers to insert announcement details-->
+		<h3 id="filterName">Details:</h3>
+		<br>
+		<textarea id="htmlTAnnouncementDescription" placeholder="Announcement Details:" style="width:30%" rows="5"></textarea>
+		<br>
+		<br>
+		<!--Creating a button through the use of the <input tag, which also run the function getTeacherInput, when the button is clicked-->
+		<input id="button" type="Submit" value="Publish" onclick="getTeacherInput()"></input>
+		<br>
+		<br> </div>
+	<!--This is the code for adding a live weather widget-->
+	<!--It uses a website to grab live information from to then display it on screen-->
+    <a class="weatherwidget-io" href="https://forecast7.com/en/43d73n79d76/brampton/" data-label_1="BRAMPTON" 
+    data-label_2="WEATHER" data-mode="Current" data-days="3" data-theme="salmon" data-basecolor="#ff806e">BRAMPTON WEATHER</a>
+	<script>
+	!(function(d, s, id) {
+		var js,
+			fjs = d.getElementsByTagName(s)[0];
+		if(!d.getElementById(id)) {
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "https://weatherwidget.io/js/widget.min.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}
+	})(document, "script", "weatherwidget-io-js");
+	</script>
+</body>
+
+</html>

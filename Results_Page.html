@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Results Page</title>
+	<!--Linking CSS file and the font library-->
+	<link rel="stylesheet" href="results.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+	<style>
+	body {
+		font-family: "Montserrat";
+	}
+	</style>
+</head>
+
+<!--The onload is here to run the JavaScript function as soon as the page has been loaded -->
+<body onload="displayResults()">
+	<!--Connecting the results page JS file to this file-->
+	<script src="resultsPage.js"></script>
+	<h1 id="title">North Park SS Announcements</h1>
+	<br>
+	<!--Linking the results page to the student search page through a button for students to navigate through pages-->
+    <a href="./Student_Search_Page.html" id="navigation">Search Page</a>
+	<!--Linking the results page to the student search page through a buttons for students to navigate through pages-->
+    <a href="homepage.html" id="navigation">Home Page</a>
+	<br>
+	<br>
+	<h1 id="name">Results</h1>
+	<br>
+	<br>
+	<br>
+	<!--Creating a text area for announcements to appear in-->
+	<textarea id="sResults" style="width:30%" rows="5"></textarea>
+	<br>
+	<br>
+	<br>
+	<p id="closingStatement">Those are all your announcements for today!! Check again tomorrow for more!</p>
+</body>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--This is the code for adding a live weather widget-->
+<!--It uses a website to grab live information from to then display it on screen-->
+<a class="weatherwidget-io" href="https://forecast7.com/en/43d73n79d76/brampton/" data-label_1="BRAMPTON" 
+data-label_2="WEATHER" data-mode="Current" data-days="3" data-theme="salmon" data-basecolor="#ff806e">BRAMPTON WEATHER</a>
+<script>
+!(function(d, s, id) {
+	var js,
+		fjs = d.getElementsByTagName(s)[0];
+	if(!d.getElementById(id)) {
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "https://weatherwidget.io/js/widget.min.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}
+})(document, "script", "weatherwidget-io-js");
+</script>
+
+</html>

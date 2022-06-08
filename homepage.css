@@ -1,0 +1,63 @@
+#title {
+    text-align: center;
+    font-family: "Montserrat";
+    color: azure;
+    font-size: 150%;
+    border-radius: 30px;
+    background: #ff806e;
+    padding: 1%;
+    height: 5%;
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+.sResults {
+    float: left;
+    font-family: 'Montserrat';
+    color: azure;
+    font-size: 200%;
+ 
+}
+
+#navigation {
+text-align: left;
+font-family: 'Montserrat';
+color: azure;
+font-size: 120%;
+border-radius: 25px;
+background:url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4d63ac64120315.5ac773360206a.png);
+padding: 0.7%;
+width: 50%;
+height: 3%;
+}
+
+
+#name {
+    text-align: center;
+}
+
+#sResults { 
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: auto;
+    display: block;
+    font-size: 100%;
+
+    }
+
+#openingStatement {
+    text-align: center;
+    font-family: 'Montserrat';
+    
+    font-size: 200%;
+    font-style:oblique;
+}

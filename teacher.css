@@ -1,0 +1,99 @@
+#title {
+    text-align: center;
+    font-family: "Montserrat";
+    color: azure;
+    font-size: 150%;
+    border-radius: 30px;
+    background: #ff806e;
+    padding: 1%;
+    height: 5%;
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+  }
+  
+  #navigation {
+    text-align: left;
+    font-family: "Montserrat";
+    color: azure;
+    font-size: 120%;
+    border-radius: 25px;
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4d63ac64120315.5ac773360206a.png);
+    padding: 0.7%;
+    width: 50%;
+    height: 3%;
+  }
+  
+  #filterName {
+    text-align: center;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    border-radius: 25px;
+    background:url(https://cdn5.vectorstock.com/i/1000x1000/94/29/abstract-purple-gradient-background-blurred-vector-20239429.jpg);    
+    padding: 0.4%;
+    width: 6%;
+    height: 3%;
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+  }
+  
+  #filters {
+    text-align: center;
+  }
+  
+  #name {
+    text-align: center;
+  }
+  
+  #sResults {
+    text-align: center;
+    font-family: "Montserrat";
+    margin: auto;
+    display: block;
+    font-size: 100%;
+  }
+  
+  
+  #button {
+    text-align: center;
+    font-family: "Montserrat";
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    background:url(https://cdn5.vectorstock.com/i/1000x1000/94/29/abstract-purple-gradient-background-blurred-vector-20239429.jpg);    
+    font-size: 120%;
+    padding: 0.4%;
+    width: 6%;
+    height: 3%;
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+  }
+  
+  #htmlTGender {
+    font-style: italic;
+    text-align: center;
+    font-family: "Montserrat";
+    border-radius: 25px;
+    color: black;
+    font-size: 90%;
+    background: rgb(253, 253, 253);
+    padding: 0.4%;
+    width: 8%;
+    height: 3%;
+  }
+  
+  #htmlTClub {
+    font-style: italic;
+    text-align: center;
+    font-family: "Montserrat";
+    border-radius: 25px;
+    color: black;
+    font-size: 90%;
+    background: rgb(253, 253, 253);
+    padding: 0.4%;
+    width: 8%;
+    height: 3%;
+  }
+  
